@@ -38,7 +38,7 @@ This project showcases my **skills, projects, and contact information** in a cle
 
 ## 🚀 Live Demo
 
-👉 [View Portfolio Live](https://jamal-portfolio.netlify.app)
+👉 [View Portfolio Live](https://portfolio-website-phi-sepia.vercel.app/)
 
 ---
 
