@@ -63,7 +63,7 @@ portfolio-website/
 
 ## 📬 Contact
 
-💼 LinkedIn: [linkedin.com/in/jamal](https://www.linkedin.com/in/jamal-ademola-9b623236b)  
+💼 LinkedIn: [[linkedin.com/in/jamal-ademola-9b623236b](https://www.linkedin.com/in/jamal-ademola-9b623236b)  
 💻 GitHub: [github.com/Jamal-09](https://github.com/Jamal-09)  
 📧 Email: [napg.adekunle@gmail.com](mailto:napg.adekunle@gmail.com)  
 📱 WhatsApp: [Chat on WhatsApp](https://wa.me/2348148647795)  
