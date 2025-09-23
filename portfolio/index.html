@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a2e0e9c6f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="../js/script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="/portfolio/index.html" class="logo"
+          >My<span>Portfolio</span></a
+        >
+        <ul class="nav-links">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Hello, I’m <span class="highlight">Jamal Ademola</span></h1>
+        <p>I build beautiful, fast, and scalable web applications.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="../images/hero-dev.png" alt="Developer Illustration" />
+      </div>
+    </header>
+
+    <!-- Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <i class="devicon-javascript-plain colored"></i> JavaScript
+        </div>
+        <div class="skill">
+          <i class="devicon-typescript-plain colored"></i> TypeScript
+        </div>
+        <div class="skill">
+          <i class="devicon-react-original colored"></i> React
+        </div>
+        <div class="skill">
+          <i class="devicon-python-plain colored"></i> Python
+        </div>
+        <div class="skill">
+          <i class="devicon-django-plain colored"></i> Django
+        </div>
+        <div class="skill"><i class="devicon-flask-original"></i> Flask</div>
+        <div class="skill"><i class="devicon-git-plain colored"></i> Git</div>
+        <div class="skill"><i class="devicon-mysql-plain colored"></i> SQL</div>
+        <div class="skill"><i class="devicon-nextjs-original"></i> Next JS</div>
+        <div class="skill">
+          <i class="devicon-mongodb-plain colored"></i> MongoDB
+        </div>
+        <div class="skill">
+          <i class="devicon-express-original"></i> Express JS
+        </div>
+        <div class="skill">
+          <i class="devicon-react-original colored"></i>ReactNative
+        </div>
+        <div class="skill">
+          <i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS
+        </div>
+        <div class="skill">
+          <i class="devicon-nodejs-plain colored"></i> RESTful APIs
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card tilt">
+          <img src="../images/ecommerce.png" alt="E-commerce App" />
+          <div class="project-info">
+            <h3>E-commerce App</h3>
+            <p>Fullstack store with authentication and payments.</p>
+            <a href="projects/ecommerce.html" class="btn-small">Details</a>
+          </div>
+        </div>
+        <div class="project-card tilt">
+          <img src="../images/blog.png" alt="Blog App" />
+          <div class="project-info">
+            <h3>Blog Posts App</h3>
+            <p>Platform for creating, editing, and sharing blog posts.</p>
+            <a href="projects/blog.html" class="btn-small">Details</a>
+          </div>
+        </div>
+        <div class="project-card tilt">
+          <img src="../images/portfolio.png" alt="Portfolio Website" />
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>Responsive and animated personal portfolio.</p>
+            <a href="projects/portfolio.html" class="btn-small">Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-list">
+        <div class="contact-item">
+          <i class="fas fa-phone" style="color: #28a745"></i>
+          <span>+2348077149822</span>
+        </div>
+
+        <div class="contact-item">
+          <i class="fab fa-whatsapp" style="color: #25d366"></i>
+          <a href="https://wa.me/2348148647795" target="_blank"
+            >Chat on WhatsApp</a
+          >
+        </div>
+
+        <div class="contact-item">
+          <i class="devicon-linkedin-plain colored"></i>
+          <a
+            href="https://www.linkedin.com/in/jamal-ademola-9b623236b"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+
+        <div class="contact-item">
+          <i class="devicon-github-original colored"></i>
+          <a href="https://github.com/Jamal-09" target="_blank">GitHub</a>
+        </div>
+
+        <div class="contact-item">
+          <i class="fas fa-envelope" style="color: #ea4335"></i>
+          <a href="mailto:napg.adekunle@gmail.com">napg.adekunle@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2025 Jamal Ademola.</p>
+    </footer>
+  </body>
+</html>
